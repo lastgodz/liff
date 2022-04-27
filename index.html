@@ -35,6 +35,7 @@
   <button id="btnScanCode" onclick="scanCode()">Scan Code</button>
   <button id="btnLogOut" onclick="logOut()">Log Out</button>
   <button id="btnClose" onclick="closed()">Close</button>
+  <button id="btnReload" onclick="reload()">Reload</button> 
 
   <!-- <script src="js/vconsole.min.js"></script> -->
   <!-- <script>
@@ -54,6 +55,10 @@
     }
 
     function closed() {
+    }
+
+    function reload(){
+      location.reload();
     }
 
     async function scanCode() {
